@@ -1,0 +1,52 @@
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    margin: 50px 150px;
+    border: solid 1px darkslateblue;
+    border-radius: 4px;
+}
+
+.timer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form__row {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+input {
+    width: 31px;
+    height: 20px;
+    border: 1px solid darkslateblue;
+}
+
+.counter {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    color: aliceblue;
+    background-color: darkslateblue;
+    width: 98px;
+    height: 33px;
+    border-radius: 6px;
+    cursor: pointer;
+}
